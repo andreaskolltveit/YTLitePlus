@@ -36,7 +36,6 @@ YTLitePlus_LDFLAGS := \
     $(filter-out -multiply_defined% -lc++, $(YTLitePlus_LDFLAGS))
 
 # Libraries and Frameworks
-YTLitePlus_LIBRARIES = substrate
 YTLitePlus_FRAMEWORKS = UIKit Security
 
 # Theos Setup
